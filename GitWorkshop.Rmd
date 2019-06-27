@@ -4,8 +4,8 @@ author: "Pradeep Bashyal"
 date: "6/14/2019"
 output:
   ioslides_presentation:
-    incremental: true
-    widescreen: false
+    css: styles.css
+    incremental: yes
     logo: cibmtr-logo.png
     css: styles.css
 ---
@@ -60,9 +60,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## A tour of Git
 
-Know **git** is terrible. It's not you.
+Know **git** is terrible. It's not you. Keep it simple and you'll be fine.
 
-Keep it simple and you'll be fine.
+![Git xkcd](https://imgs.xkcd.com/comics/git.png)
 
 ## Git concepts
 
@@ -144,6 +144,7 @@ Fork -> Clone -> Feature Branch -> **Code Changes** -> Merge Upstream -> Push ->
 
 [Github Markdown](https://guides.github.com/features/mastering-markdown/)
 
+[Tutorial](https://www.markdowntutorial.com/)
 
 ## Git Comments
 
@@ -168,7 +169,13 @@ What to read after this ?
 
 - [Pro Git Book](https://git-scm.com/book)
 
+- [Switching Branches](https://help.github.com/en/desktop/contributing-to-projects/switching-between-branches)
+
 ## Attendees
 
 - Pradeep Bashyal
+- Abeer Madbouly
+- Mohammed Sayed
+- Huajun Zhou
 - Stephanie Fingerson
+- Martin Maiers
