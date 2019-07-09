@@ -7,7 +7,6 @@ output:
     css: styles.css
     incremental: yes
     logo: cibmtr-logo.png
-    css: styles.css
 ---
 
 ```{r setup, include=FALSE}
